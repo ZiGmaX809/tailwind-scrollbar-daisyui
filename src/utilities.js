@@ -90,9 +90,9 @@ const SCROLLBAR_SIZE_UTILITIES = {
     'scrollbar-width': 'auto',
 
     '&::-webkit-scrollbar': {
-      width: '16px',
-      height: '16px'
-    }
+      width: '10px',
+      height: '10px',
+    },
   },
 
   '.scrollbar-thin': {
@@ -100,18 +100,18 @@ const SCROLLBAR_SIZE_UTILITIES = {
     'scrollbar-width': 'thin',
 
     '&::-webkit-scrollbar': {
-      width: '8px',
-      height: '8px'
-    }
+      width: '5px',
+      height: '5px',
+    },
   },
 
   '.scrollbar-none': {
     'scrollbar-width': 'none',
 
     '&::-webkit-scrollbar': {
-      display: 'none'
-    }
-  }
+      display: 'none',
+    },
+  },
 };
 
 /**
