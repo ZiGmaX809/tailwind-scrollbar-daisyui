@@ -1,4 +1,5 @@
 const plugin = require('tailwindcss/plugin');
+
 const {
   BASE_STYLES,
   SCROLLBAR_SIZE_UTILITIES,

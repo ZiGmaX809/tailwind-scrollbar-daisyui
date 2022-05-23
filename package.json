@@ -1,11 +1,11 @@
 {
-  "name": "tailwind-scrollbar",
-  "version": "1.3.1",
-  "description": "Tailwind plugin for styling scrollbars",
-  "author": "Graham Still <graham@gstill.dev>",
+  "name": "tailwind-scrollbar-daisyui",
+  "version": "1.3.2",
+  "description": "Tailwind plugin for styling scrollbars and support daisyUI",
+  "author": "ZiGma Pyrogas7@gmail.com",
   "main": "src/index.js",
-  "repository": "https://github.com/adoxography/tailwind-scrollbar",
-  "homepage": "https://github.com/adoxography/tailwind-scrollbar",
+  "repository": "https://github.com/ZiGma/tailwind-scrollbar-daisyUI",
+  "homepage": "https://github.com/ZiGma/tailwind-scrollbar-daisyUI",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -16,7 +16,7 @@
     "src/*"
   ],
   "dependencies": {
-    "tailwindcss": ">1.9.6"
+    "tailwindcss": ">3.0.24"
   },
   "devDependencies": {
     "eslint": "^7.27.0",

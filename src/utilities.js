@@ -14,6 +14,10 @@ const buildSuffixMap = (configObj, e, sep = '-') => {
 
       if (typeof value === 'object') {
         result = build(value, suffix);
+      } else if(typeof value === 'function') {
+        const colorName = require("daisyui/src/colors/colorNames");
+        const commKey = `hsl(var(${colorName[key]}) / var(--tw-bg-opacity))`
+        result = { [suffix]:commKey }
       } else {
         const compoundKey = key === 'DEFAULT' ? prefix : `${prefix}${suffix}`;
         result = { [compoundKey]: value };
@@ -125,7 +129,7 @@ const SCROLLBAR_SIZE_UTILITIES = {
  */
 const generateColorUtilities = (key, value, generateTrackHover = false) => {
   const utilities = {};
-  const cssValue = `${value} !important`;
+  let cssValue = `${value} !important`;
 
   utilities[`.scrollbar-track${key}`] = {
     '--scrollbar-track': cssValue
