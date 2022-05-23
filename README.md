@@ -7,7 +7,7 @@
 Fork From [adoxography/tailwind-scrollbar](https://github.com/adoxography/tailwind-scrollbar)
 
 1. Updated to support TailwindCss 3.x, mainly for the `rounded` property.
-2. Support [daisyUI](https://github.com/saadeghi/daisyui).So you can use properties like `scrollbar-thumber-base-300` with this plugin,but the property `scrollbar-thumber-base-300/50` what to transform opacity is not supported.The main purpose is to change the scrollbar color according to the theme color when switching themes, but it is not guaranteed to be available in other component libraries as well.
+2. Support [daisyUI](https://github.com/saadeghi/daisyui).So you can use properties like `scrollbar-thumber-base-300` with this plugin,but the property `scrollbar-thumber-base-300/50` which to transform opacity is not supported.The main purpose is to change the scrollbar color according to the theme color when switching themes, but it is not guaranteed to be available in other component libraries as well.
 
 ### 简体中文
 1. 升级支持Tailwind 3.x，主要是有关于`rounded`属性。
