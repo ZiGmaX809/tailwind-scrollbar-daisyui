@@ -13,20 +13,17 @@ Fork From [adoxography/tailwind-scrollbar](https://github.com/adoxography/tailwi
 1. 升级支持Tailwind 3.x，主要是有关于`rounded`属性。
 2. 支持了daisyUI的颜色库，所以你现在可以使用类似于`scrollbar-thumber-base-300`这样的颜色属性。主要是为了切换主题时根据主题颜色变更滚动条颜色，但是不保证在其他的组件库中同样可用。
    
-
-# Origin ReadMe
-
 Adds styling utilities for scrollbars in Firefox and webkit-based browsers.
 
 ## Installation
 
 ```bash
-yarn add -D tailwind-scrollbar
+yarn add -D tailwind-scrollbar-daisyui
 ```
 or
 
 ```bash
-npm install --save-dev tailwind-scrollbar
+npm install --save-dev tailwind-scrollbar-daisyui
 ```
 
 Add it to the plugins array of your Tailwind config.
@@ -34,9 +31,11 @@ Add it to the plugins array of your Tailwind config.
 ```js
 plugins: [
     // ...
-    require('tailwind-scrollbar'),
+    require('tailwind-scrollbar-daisyui'),
 ],
 ```
+
+# Origin ReadMe
 
 ## Usage
 
