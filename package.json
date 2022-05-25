@@ -1,6 +1,6 @@
 {
   "name": "tailwind-scrollbar-daisyui",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Tailwind plugin for styling scrollbars and support daisyUI",
   "author": "ZiGma Pyrogas7@gmail.com",
   "main": "src/index.js",
@@ -19,7 +19,7 @@
     "src/*"
   ],
   "dependencies": {
-    "tailwindcss": ">3.0.24"
+    "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
     "eslint": "^7.27.0",

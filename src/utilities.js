@@ -16,7 +16,7 @@ const buildSuffixMap = (configObj, e, sep = '-') => {
         result = build(value, suffix);
       } else if(typeof value === 'function') {
         const colorName = require("daisyui/src/colors/colorNames");
-        const commKey = `hsl(var(${colorName[key]}) / var(--tw-bg-opacity))`
+        const commKey = `hsl(var(${colorName[key]}))`
         result = { [suffix]:commKey }
       } else {
         const compoundKey = key === 'DEFAULT' ? prefix : `${prefix}${suffix}`;
